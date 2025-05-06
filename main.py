@@ -8,10 +8,10 @@ idpath = "C:/Projects/Python/SecretSanta/ids.txt"
 moneypath = "C:/Projects/Python/SecretSanta/money.txt"
 wishpath = "C:/Projects/Python/SecretSanta/wish.txt"
 
-api = "5451023366:AAEQqiKgY8ziYa89ybDl-_9j4LVXqZigfPs"
+api = ""
 bot = telebot.TeleBot(api)
 
-adminId = "1105052146"
+adminId = ""
 
 def GetPresents ():
     ids = LoadIds ()
